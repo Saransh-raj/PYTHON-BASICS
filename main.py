@@ -27,3 +27,9 @@ num = 42
 label = str(num)
 print(label, type(label))   # "42" <class 'str'>
 
+# variable naming
+studentName = "Saransh" # camel case
+
+StudentName = "Saransh" # pascal case
+
+student_name = "Saransh" # snake case
