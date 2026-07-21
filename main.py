@@ -33,3 +33,17 @@ studentName = "Saransh" # camel case
 StudentName = "Saransh" # pascal case
 
 student_name = "Saransh" # snake case
+
+# for know the unicode of anything
+a = "A"
+print(ord(a))
+
+# index accessing
+str = "HELLO"
+#         H              E              L
+print(str[0]); print(str[1]); print(str[2])
+
+# string slicing
+let = "SHER CODER"
+print(let[0:4]) # SHER
+print(let[5:]) # CODER
