@@ -36,3 +36,19 @@ print(d and f)  # False
 print(d or f)   # True
 print(not d)    # False
 
+# 5. Bitwise Operators - (&,|,^,~,<<,>>)
+a = 10   # 1010 in binary
+b = 4    # 0100 in binary
+print(a & b)  # 0
+print(a | b)  # 14
+
+# 6. Identity Operators - (is,is not)
+a = [1,2]
+b = [1,2]
+print(a == b)  # True (values equal)
+print(a is b)  # False (different objects)
+
+# 7. Membership Operators - (in,not in)
+nums = [1,2,3]
+print(2 in nums)      # True
+print(5 not in nums)  # True
