@@ -138,3 +138,19 @@ for i in range(len(str1)-1, -1, -1):
     print(str1[i])
     
 print("------------------------")
+
+# check the number is palindrome
+num4 = int(input("Enter number to check the palindrome : "))
+copy = num4
+reverse = 0
+while (num4>0):
+    digit = num4 % 10
+    reverse = reverse * 10 + digit
+    num4 = num4 // 10
+print("Reverse number is : ",reverse)
+
+# check the number is palindrome
+if copy == reverse:
+    print("Number is palindrome")
+else:
+    print("Number is not a palindrome")
