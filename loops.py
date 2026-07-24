@@ -106,4 +106,24 @@ for i in range(1,15):
     if i % 2 == 0:
         continue
     print(i)
+print("------------------------")
 
+
+# factorial of a number :
+fact = 1
+num2 = int(input("Enter number for Factorial : "))
+for i in range(1,num2+1):
+    fact *= i
+print("Factorial - ",fact)
+
+# perfect number code :- when the sum of the factor of the number is equal to the number is known as perfect number
+sums = 0
+num3 = int(input("Enter number - "))
+for i in range(1,num3):
+    if num3 % i == 0:
+        sums += i
+
+if sum == num3:
+    print("Number is perfect")
+else:
+    print("Number is not perfect")
