@@ -63,3 +63,47 @@ for i in range(1,num1+1):
 print(sum)
 print("------------------------")
 
+# directly accessing the loop without range function
+str = "STRANGER THINGS"
+for i in str:
+    print(i)
+print("------------------------")
+
+# break keyword :- The break statement is used to immediately terminate (stop) a loop.
+for i in range(1,10):
+    if i == 6:
+        break
+    else:
+        print(i)
+print("------------------------")
+
+        
+# break keyword question :- 
+correct_password = "Saransh@123"
+
+while True:
+    password = input("Enter password : ")
+    
+    if correct_password == password:
+        print("User login successfully..!")
+        break
+    
+    print("Wrong password --- :(")
+print("------------------------")
+
+
+
+# continue keyword :- The continue statement is used to skip the current iteration of a loop and continue with the next iteration
+for i  in range(1,10):
+    if i == 8:
+        continue
+    else:
+        print(i)
+print("------------------------")
+
+# Print Only Odd Numbers using continue statement
+for i in range(1,15):
+    if i % 2 == 0:
+        continue
+    print(i)
+
