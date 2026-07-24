@@ -10,7 +10,8 @@ def welcome():
     
 welcome()
 
-# function with parameter
+# Arguments :- Arguments are the Values passed to a function when it is called
+# function with parameter 
 def greeting(name):
     print("Hello ,",name)
 
