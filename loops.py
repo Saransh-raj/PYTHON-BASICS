@@ -115,6 +115,8 @@ num2 = int(input("Enter number for Factorial : "))
 for i in range(1,num2+1):
     fact *= i
 print("Factorial - ",fact)
+print("------------------------")
+
 
 # perfect number code :- when the sum of the factor of the number is equal to the number is known as perfect number
 sums = 0
@@ -127,3 +129,12 @@ if sum == num3:
     print("Number is perfect")
 else:
     print("Number is not perfect")
+
+print("------------------------")
+
+# reverse of string using for loop
+str1 = "SARANSH"
+for i in range(len(str1)-1, -1, -1):
+    print(str1[i])
+    
+print("------------------------")
