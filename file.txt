@@ -1,0 +1,5 @@
+Name: Siddhi
+Class: 10A
+Subject: Computer Science
+Date: 26-07-2026
+Venue: School Auditorium
