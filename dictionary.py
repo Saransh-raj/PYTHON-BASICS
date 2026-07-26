@@ -34,3 +34,19 @@ student["age"] = 21
 
 print(student)
 print("------------------------")
+
+
+teacher = {
+    "name" : "Ashi",
+    "age" : 55
+}
+
+teacher.update({"subject" : "Maths"})
+print(teacher)
+
+print("------------------------")
+
+# values method which print the value of the dictionary
+print(teacher.values())
+# key method which print the key of the dictionary
+print(teacher.keys())
