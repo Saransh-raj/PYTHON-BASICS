@@ -48,3 +48,17 @@ class Animal:
     
     def __init__(self,age):
         self.age = age # instance attribute
+
+# types of method
+
+# 1. Instance method - An instance method Works with instance (object) of the class. This method can access and modify instance attributes.
+class Animal:
+    def show(self):
+        print("Hello how are you...!")
+        
+# 2. Class method - This method works with the class itself it will not target the instance (object). we have to use 
+# @classmethod decorator for creating the class method and it takes cls as their first parameter.0
+class Myclass:
+    @classmethod
+    def class_method(cls):
+        print("This is the class")
