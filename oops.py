@@ -58,7 +58,31 @@ class Animal:
         
 # 2. Class method - This method works with the class itself it will not target the instance (object). we have to use 
 # @classmethod decorator for creating the class method and it takes cls as their first parameter.0
-class Myclass:
+class Student:
+
+    college = "Parul University"
+
+    def __init__(self, name):
+        self.name = name
+    # decorator for class method
     @classmethod
-    def class_method(cls):
-        print("This is the class")
+    def display_college(cls):
+        print(cls.college)
+
+
+s1 = Student("Saransh")
+s2 = Student("Rahul")
+
+s1.display_college()
+s2.display_college()
+
+# 3. Static method - A static method does not work with instance variables or class variables.
+class Calculator:
+
+    # decorator for class method
+    @staticmethod
+    def add(a, b):
+        return a + b
+
+
+print(Calculator.add(10, 20)) # 30
