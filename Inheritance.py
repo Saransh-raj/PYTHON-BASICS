@@ -12,3 +12,16 @@ print(obj.a)
 
 obj2 = Factory_Pune
 print(obj2.a)
+
+# super keyword :- 
+class Animal:
+    def __init__(self):
+        print("Animal Constructor")
+        
+class Dog(Animal):
+    def __init__(self):
+        super().__init__()
+        print("Dog Constructor")
+        
+d = Dog()
+
