@@ -42,3 +42,27 @@ class PuneFactory(BhopalFactory):
         super().__init__(material, zips, color)
         self.pockets = pockets
         
+        
+        
+# Multiple inheritance :-
+
+class Father:
+
+    def money(self):
+        print("Father's Money")
+
+
+class Mother:
+
+    def jewellery(self):
+        print("Mother's Jewellery")
+
+
+class Child(Father, Mother):
+    pass
+
+
+c = Child()
+
+c.money()
+c.jewellery()
