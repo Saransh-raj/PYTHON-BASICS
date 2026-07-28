@@ -66,3 +66,27 @@ c = Child()
 
 c.money()
 c.jewellery()
+
+
+# hierarchical inheritance :-
+
+#           Animal
+#           /  |  \
+#         Dog Cat Cow
+
+class Animal:
+
+    def eat(self):
+        print("Eating")
+
+
+class Dog(Animal):
+    pass
+
+
+class Cat(Animal):
+    pass
+
+
+Dog().eat()
+Cat().eat()
