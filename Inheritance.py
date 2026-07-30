@@ -87,6 +87,9 @@ class Dog(Animal):
 class Cat(Animal):
     pass
 
+class Cow(Animal):
+    pass
 
 Dog().eat()
 Cat().eat()
+Cow().eat()

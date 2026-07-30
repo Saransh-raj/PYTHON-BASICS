@@ -1,0 +1,1 @@
+# Encapsulation :- Wrapping data (variables) and methods (functions) into a single unit called a class and controlling access to the data.
