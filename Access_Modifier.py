@@ -45,4 +45,15 @@ class Student:
         self.__age = 20
         
 s = Student()
-print(s._Student__age) # Syntax for accessing private access modifier variable
+print("Age : ",s._Student__age) # Syntax for accessing private access modifier variable
+
+# private with methods
+class Student:
+    def __init__(self):
+        self.__age = 20
+        
+    def show(self):
+        print("Age : ",self.__age)
+        
+s = Student()
+s.show()
