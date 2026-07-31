@@ -40,3 +40,31 @@ class Car(Vehicle):
 c = Car()
 c.start()
 c.stop()
+
+
+# Real world example (payment system) :-
+
+# abstract class
+class Payment(ABC):
+
+    @abstractmethod
+    def pay(self):
+        pass
+
+# child class
+class CreditCard(Payment):
+
+    def pay(self):
+        print("Payment through Credit Card")
+
+# child class
+class UPI(Payment):
+
+    def pay(self):
+        print("Payment through UPI")
+        
+p1 = CreditCard()
+p2 = UPI()
+
+p1.pay()
+p2.pay()
